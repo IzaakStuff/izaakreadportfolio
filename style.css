@@ -1,0 +1,149 @@
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+p {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    line-height: 31px;
+}
+
+img {
+    float: center;
+    Width: 800px;
+    height:450px;
+    object-fit: cover;
+}
+
+video {
+    float: center;
+    Width: 800px;
+    height:450px;
+    object-fit: cover;
+}
+
+a {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0,0,.2,1);
+    transition-duration: 0.3s;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info {
+    text-align: center;
+    width: 800px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav {
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 5rem;
+    color: rgb(48, 116, 219);
+    font-weight: bold;
+    display: block;
+}
+
+.sub-header {
+   margin-top: -40px;
+   opacity: 65%;
+}
+
+
+.me {
+    font-size: 22px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+a:hover {
+    opacity: 65%;
+    text-decoration: none;
+}
+
+.phone {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phone_picture {
+    width: 4.8%;
+    margin-bottom: -3px;
+}
+
+.gmail {
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gmail_picture {
+    width: 6.2%;
+    margin-bottom: -3px;
+}
+
+.socials {
+    font-family: inherit;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials i {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.no-bullet {
+	list-style-type: none;
+}
+
+.space-y-1 > * + * {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+#white-column {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.broken-avacato {
+    margin:0;
+    padding: 0;
+}
